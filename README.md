@@ -42,12 +42,12 @@ The github form : [Github - Hugging Face] [2]
 >單張熱力圖
 >>- img_path：欲輸入模型的圖片路徑。
 >>- CAM_RESULT_PATH：畫好的熱力圖的儲存路徑。
-### 輸出多張熱力圖
+    輸出多張熱力圖
 - imgpath：欲輸入模型的資料夾路徑。
 - CAM_RESULT_PATH：畫好的熱力圖的儲存資料夾路徑。
 - CAM_FALSE_PATH：分類錯誤的熱力圖與原圖儲存路徑。
 - CAM_RIGHT_PATH：分類正確的熱力圖與原圖儲存路徑。
-- detect集與訓練/測試集的讀取資料夾方式不同。
+- detect集與訓練/測試集的讀取資料夾方式不同。    
 ### 熱力圖與原圖組合圖
 - bg：畫布大小，(原圖width*2,原圖height)，(2,1)排列。
 - bg.save：儲存融合原圖與熱力圖的圖片位置。
