@@ -39,10 +39,11 @@ The github form : [Github - Hugging Face] [2]
 - 使用 cam.py 畫圖
     - modelName：更改為已訓練好的權重檔的路徑。
 - convnext.py 在 model_s 前加入self.stages = model。
->###單張熱力圖
+>### 單張熱力圖
 >>- img_path：欲輸入模型的圖片路徑。
->>- CAM_RESULT_PATH：畫好的熱力圖的儲存路徑。  
->###輸出多張熱力圖
+>>- CAM_RESULT_PATH：畫好的熱力圖的儲存路徑。
+
+>### 輸出多張熱力圖
 >>- imgpath：欲輸入模型的資料夾路徑。
 >>- CAM_RESULT_PATH：畫好的熱力圖的儲存資料夾路徑。
 >>- CAM_FALSE_PATH：分類錯誤的熱力圖與原圖儲存路徑。
