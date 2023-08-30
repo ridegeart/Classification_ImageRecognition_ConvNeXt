@@ -55,8 +55,8 @@ The github form : [Github - Hugging Face] [2]
 >>- 分類錯誤：生成的圖像 -> (原圖,預測類別,真實類別)
 
 >### 更改畫熱力圖的模型 
->>1. model_features:讀取模型最後一層的輸出特徵圖。 
->>2. fc_weights：獲得fc層的權重。
+>>1. model_features:讀取模型最後一層的輸出特徵圖，shape=(output_dim,最後一層的image_size)。 
+>>2. fc_weights：獲得fc層的權重，shape=(num_classes,output_dim)。
 
 [1]: https://arxiv.org/abs/2201.03545 "A ConvNet for the 2020s"
 [2]: https://github.com/huggingface/pytorch-image-models "Github - Hugging Face"
